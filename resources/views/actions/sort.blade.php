@@ -1,0 +1,1 @@
+{!! Digbang\Backoffice\Facades\Link::sort($column) !!}

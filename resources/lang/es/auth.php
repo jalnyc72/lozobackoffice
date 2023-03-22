@@ -1,0 +1,86 @@
+<?php
+return [
+	'welcome_message'  => 'Bienvenido al panel de administración!',
+	'sign_in'          => 'Entrar',
+	'sign_out'         => 'Salir',
+	'sign_in_msg'      => 'Ingrese su correo electrónico/usuario y su contraseña',
+	'login'            => 'Correo o usuario',
+	'password'         => 'Contraseña',
+	'confirm_password' => 'Confirmar contraseña',
+	'remember_me'      => 'Recuérdame',
+	'forgot_password'  => '¿Olvidó su contraseña?',
+	'copyright'        => 'Copyright &copy;' . date('Y') . '. Todos los derechos reservados',
+	'activation' => [
+		'title' => 'Reenviar correo de activación',
+		'confirm' => 'Un vínculo para activar la cuenta será enviado a su correo',
+		'success' => '¡Has activado tu cuenta! Por favor, elige una contraseña.',
+		'email-sent' => 'Un correo ha sido enviado a :email con el vínculo de activación.',
+		'expired' => [
+			'title' => 'El vínculo de activación es incorrecto o ha expirado.',
+			'link' => 'Por favor, <a href="mailto::email">contacte al administrador</a> para obtener uno nuevo.',
+		],
+		'missing' => [
+			'title' => 'Tu cuenta no ha sido activada',
+			'message' => 'Por favor, revisa tu casilla de correo e <a href=":link">intenta nuevamente.</a>',
+		]
+	],
+	'reset-password' => [
+		'title' => 'Reiniciar contraseña',
+		'confirm' => 'Un vínculo para reiniciar su contraseña será enviado a su correo',
+		'email-request' => 'Ingrese su correo para reiniciar su contraseña.',
+		'send-email' => 'Enviar pedido',
+		'text' => 'Ingrese una nueva contraseña para acceder a su cuenta.',
+		'submit' => 'Reiniciar',
+		'email-sent' => 'Un correo ha sido enviado a :email con instrucciones.',
+		'success' => 'Contraseña reiniciada correctamente. Por favor, ingrese nuevamente con su nueva contraseña',
+	],
+	'validation'      => [
+		'login-required' => 'El campo de correo es requerido.',
+		'password'       => [
+			'required' => 'La contraseña es requerida.',
+			'wrong'    => 'Contraseña inválida, intente de nuevo.',
+		],
+		'user' => [
+			'not-found'         => 'El usuario no ha sido encontrado.',
+			'not-activated'     => 'El usuario no está activo.',
+			'already-active'    => 'Este usuario ya ha sido activado.',
+			'email-required'    => 'El campo correo es requerido.',
+			'password-required' => 'El campo contraseña es requerido.',
+			'user-email-repeated' => 'El email ingresado ya ha sido registrado',
+			'user-username-repeated' => 'El nombre de usuario ingresado ya ha sido registrado',
+		],
+		'reset-password' => [
+			'email' => 'El campo correo es requerido',
+			'incorrect' => 'El código de reinicio de contraseña es incorrecto.',
+		],
+		'activation' => [
+			'email' => 'El campo correo es requerido',
+			'incorrect' => 'No existe un usuario asociado al correo [:correo].',
+		],
+		'role' => [
+			'name' => 'El nombre del rol es requerido.',
+			'unique' => 'Ya existe un rol con el nombre ingresado.',
+		]
+	],
+	'throttling' => [
+		'title' => 'Límite excedido',
+		'global' => 'Se han detectado demasiados intentos fallidos de inicio de sesión globales. El inicio de sesión está bloqueado por :remaining segundo(s).',
+		'ip' => 'Se ha detectado actividad sospechosa desde su IP y ha sido bloqueada por :remaining segundo(s).',
+		'user' => 'Se han detectado demasiados intentos fallidos de inicio de sesión a su cuenta. Por favor, reintente en :remaining segundo(s).',
+	],
+	'user' => 'Usuario',
+	'users' => 'Usuarios',
+	'user_name' => ':name :lastname',
+	'permission_error' => "No tienes permisos suficientes para hacer esto.",
+	'first_name' => 'Nombre',
+	'last_name' => 'Apellido',
+	'name' => 'Nombre',
+	'email' => 'Correo electrónico',
+	'username' => 'Nombre de usuario',
+	'activated' => 'Activo',
+	'activated_at' => 'Activo desde',
+	'last_login' => 'Ultimo ingreso',
+	'role' => 'Rol',
+	'roles' => 'Roles',
+	'permissions' => 'Permisos',
+];

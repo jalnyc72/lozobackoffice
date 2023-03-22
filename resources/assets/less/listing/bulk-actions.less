@@ -1,0 +1,23 @@
+.results-list {
+  th.selectors {
+    width: 2%;
+    min-width: 30px;
+  }
+}
+.actions-bulk {
+  display: none;
+
+  & > .btn-group {
+	  margin-bottom: 0;
+
+	  .dropdown-menu > li > * {
+		  display: block;
+	  }
+	  button {
+		  &:extend(.dropdown-menu>li>a all);
+
+		  width: 100%;
+		  text-align: left;
+	  }
+  }
+}
